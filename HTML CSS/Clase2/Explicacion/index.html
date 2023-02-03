@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      th {
+        border: 1px solid black;
+      }
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabla</h1>
+    <table style="border: 1px solid black">
+      <thead>
+        <tr>
+          <th>Codigo</th>
+          <th>Nombre</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Martillo</td>
+          <td>10$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td colspan="2" rowspan="2">10$</td>
+        </tr>
+        <tr>
+          <td>Ex</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <h1>Listas descriptivas</h1>
+    <dl>
+      <dt>Martillo</dt>
+      <dd>Longitud 15cm</dd>
+      <dd>Material de acero</dd>
+      <dt>Cierra</dt>
+      <dd>Longitud 90cm</dd>
+    </dl>
+    <hr />
+    <h1>Texto preformateado</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur
+      necessitatibus neque dolorem ullam. At soluta maxime quasi nemo ea.
+    </p>
+    <pre>
+            Lorem ipsum dolor
+      sit amet consectetur adipisicing 
+      elit. Dignissimos error est dolores. 
+          Modi quia nemo aliquam 
+        impedit dolorum illum dolore!
+    </pre>
+    <hr />
+    <h1>Sub y Sup</h1>
+    Sub
+    <p>H <sub>2</sub>O</p>
+    Sup
+    <p>H <sup>2</sup>O</p>
+    <h1>Codigos</h1>
+    <p>&sbquo;</p>
+    <p>&tilde;</p>
+    <p>&Yacute;</p>
+    <p>&Ograve;</p>
+    <h1>Audio y Video</h1>
+
+    <video
+      poster="./img/counter.png"
+      width="640"
+      controls
+      autoplay
+      playsinline
+      muted
+      loop
+      preload="auto"
+    >
+      <source src="./media/videoplayback.mp5" type="video/webm" />
+      <source src="./media/videoplayback.mp6" type="video/webm" />
+      <source src="./media/videoplayback.mp4" type="video/webm" />
+      Su navegador no soporta esta caracteristica
+    </video>
+    <br />
+    none - No carga el video del recurso <br />
+    metadata - Carga por secciones <br />
+    auto - Carga todo
+
+    <br />
+    <audio controls loop preload="auto">
+      <source src="./media/ozz.mp3" type="video/webm" />
+      Su navegador no soporta esta caracteristica
+    </audio>
+  </body>
+</html>

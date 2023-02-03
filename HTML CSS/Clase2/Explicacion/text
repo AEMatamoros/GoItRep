@@ -1,0 +1,27 @@
+
+<video
+      poster="./img/counter.png"
+      width="640"
+      controls
+      autoplay
+      -----------
+      playsinline
+      muted
+      -----------
+      loop
+      preload="auto"
+    >
+      <source src="./media/videoplayback.mp5" type="video/webm" />
+      <source src="./media/videoplayback.mp6" type="video/webm" />
+      <source src="./media/videoplayback.mp4" type="video/webm" />
+      Su navegador no soporta esta caracteristica
+    </video>
+    <br />
+    none - No carga el video del recurso <br />
+    metadata - Carga por secciones <br />
+    auto - Carga todo
+    <br />
+    <audio controls autoplay loop preload="auto">
+      <source src="./media/ozz.mp3" type="video/webm" />
+      Su navegador no soporta esta caracteristica
+    </audio>
