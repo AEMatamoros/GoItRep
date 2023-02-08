@@ -1,0 +1,99 @@
+:root{
+    --color-principal:#2dba44;
+}
+*{
+  padding: 0;
+  margin: 0; 
+  
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 255);
+    background-color: blanchedalmond;
+}
+
+#h1-principal{
+    color: rgb(15, 194, 125);
+    background-color: blanchedalmond;
+}
+
+.h1-principal{
+    color: rgb(194, 173, 15);
+    background-color: blanchedalmond;
+}
+
+input[type=button]{
+    background-color: brown;
+}
+
+input[type=text]{
+    background-color: rgb(42, 165, 112);
+}
+
+.diferente[type=button]{
+    background-color: rgb(42, 120, 165);
+}
+
+/* Combinadores */
+div p{
+    /* Uso de variable */
+    color: var(--color-principal);
+}
+
+.seccion-principal p{
+    color: rgb(45, 137, 68);
+}
+
+.seccion-secundaria > p{
+    color: rgb(126, 137, 45);
+}
+
+.desendiente span{
+    color: red;
+}
+.hijo > span{
+    color: red;
+}
+
+.onHover:hover{
+    color: red;
+}
+.onActive:active{
+    color: rgb(212, 255, 0);
+}
+.onVisited:visited{
+    color: green;
+}
+.onFocus:focus{
+    color: violet;
+}
+
+.boton-principal{
+    padding:0 1rem;
+    border: 1px solid green;
+    color: white;
+    background-color: rgba(57, 57, 57,.1);
+}
+
+.boton-principal:hover{
+    color: rgb(192, 140, 140);
+    background-color: rgb(16, 16, 16);
+    cursor: pointer;
+}
+
+p{
+    color: brown;
+}
+
+button{
+    background-color: var(--color-principal);
+    color: white;
+}
+
+.main-paragraph{
+    color: var(--color-principal);
+}

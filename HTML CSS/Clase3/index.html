@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Document</title>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Externo -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- En la Pagina
+    <style>
+      h1 {
+        color: rgb(255, 0, 0);
+        background-color: rgb(175, 175, 91);
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- En Linea
+    <h1 style="color: rgb(0, 255, 0); background-color: beige">
+      Bienvenidos al curso
+    </h1> -->
+    <h1>Selectores</h1>
+    <h1 id="h1-principal">Equipo</h1>
+    <h1 class="h1-principal">Equipo</h1>
+    <input type="button" value="Ingresar" />
+    <input type="button" value="Ingresar" class="diferente" />
+
+    <input type="text" placeholder="hola" />
+    <hr />
+    <h1>Combinaciones</h1>
+    <div>
+      <p>Items 0</p>
+      <p>Items 1</p>
+      <p>Items 2</p>
+      <p>Items 3</p>
+    </div>
+    <section class="seccion-principal">
+      <p>Items 0</p>
+      <p>Items 1</p>
+      <p>Items 2</p>
+      <p>Items 3</p>
+      <div>
+        <p>Items 4</p>
+      </div>
+    </section>
+    <section class="seccion-secundaria">
+      <p>Items 0</p>
+      <p>Items 1</p>
+      <p>Items 2</p>
+      <p>Items 3</p>
+      <div>
+        <p>Items 4</p>
+      </div>
+    </section>
+
+    <section class="desendiente">
+      <div><span>Item</span></div>
+    </section>
+
+    <section class="hijo">
+      <div><span>Item</span></div>
+      <span>Item2</span>
+    </section>
+    <hr />
+    <h1>Pseudoclases</h1>
+    <p>
+      <a href="https://www.google.es/" target="_blank" class="onHover"
+        >Google Hover</a
+      >
+    </p>
+    <p>
+      <a href="https://www.google.es/" target="_blank" class="onActive"
+        >Google Active</a
+      >
+    </p>
+    <p>
+      <a href="https://www.google.es/" target="_blank" class="onVisited"
+        >Google Visited</a
+      >
+    </p>
+    <p>
+      <a href="https://www.google.es/" target="_blank" class="onFocus"
+        >Google Focus</a
+      >
+    </p>
+    <button class="boton-principal">Ingresar a la aplicacion</button>
+    <div>
+      <p>Item</p>
+    </div>
+    <div>
+      <p>Item</p>
+    </div>
+    <button>Prueba</button>
+    <p class="main-paragraph">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, ipsa.
+    </p>
+  </body>
+</html>
