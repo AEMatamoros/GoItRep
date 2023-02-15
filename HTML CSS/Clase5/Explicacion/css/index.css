@@ -1,0 +1,53 @@
+.shadow{
+    text-shadow: 50px -10px 1px red, 10px 10px 3px green , -10px 5px 5px blue;
+}
+
+.parraf:first-child{
+    color: green;
+}
+
+/* .parraf:last-child{
+    color: red;
+}
+
+.parraf:nth-child(7){
+    color: blueviolet;
+}
+
+.parraf:nth-child(2n){
+    color: rgb(116, 133, 52);
+}
+
+.parraf:nth-child(2n+1){
+    color: rgb(39, 128, 184);
+} */
+
+.parraf:nth-last-child(2n){
+    color: rgb(165, 39, 184);
+}
+
+.section{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(239, 130, 79);
+    padding: 30px;
+    border: 10px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-container{
+    width: 200px;
+    height: 200px;
+}
+
+

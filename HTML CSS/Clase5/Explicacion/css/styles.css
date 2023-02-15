@@ -1,0 +1,49 @@
+/* Normalice */
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address{
+    font-style: normal;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom */
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+section{
+    margin: 2rem;
+}

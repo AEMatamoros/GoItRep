@@ -1,0 +1,7 @@
+:root{
+    --color-principal:#2dba44;
+}
+
+.shadow{
+    text-shadow: 50px -10px 1px red, 10px 10px 3px green , -10px 5px 5px blue;
+}

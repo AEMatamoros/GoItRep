@@ -1,0 +1,23 @@
+.first-last:first-child {
+    color: red;
+}
+
+.first-last:last-child{
+    color: blue;
+}
+
+.odd-even:nth-child(2n+1){
+    color: green;
+}
+
+.odd-even:nth-child(2n){
+    color: purple;
+}
+
+.custom-pattern:nth-child(3n+2){
+    color: brown;
+}
+
+.custom-pattern-backwards:nth-child(-3n+10){
+    color: aqua;
+}

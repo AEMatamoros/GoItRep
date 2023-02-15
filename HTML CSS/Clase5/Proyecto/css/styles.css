@@ -1,0 +1,204 @@
+:root{
+    --primary-color:#FF6C00;
+    --secondary-color:#999ba5;
+    --detail-color:#6d6f7d;
+    --hero-color:rgba(229, 229, 229,.7);
+    --custom-dark:#303030;
+    --custom-light:#F7F7F7;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: var(--hero-color);
+    font-size: 90px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;;
+}
+
+span, a{
+    font-size: 11px;
+}
+
+b{
+    color: var(--custom-dark);
+    font-size: 42px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address{
+    font-style: normal;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Generics */
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.text-detail{
+    color: var(--detail-color);
+}
+
+.text-dark{
+    color:var(--custom-dark)
+}
+.text-white{
+    color:white
+}
+
+.bg-light{
+    color: var(--custom-light);
+}
+    
+
+.person-description{
+    font-size: 14px;
+}
+/* Nav */
+.custom-items{
+    color: var(--custom-dark);
+    text-decoration: none;
+}
+
+.custom-items:hover{
+    color: var(--primary-color);
+}
+
+.header-navigation > .navigation-items{
+    color: var(--secondary-color);
+}
+
+.header-navigation > .navigation-items:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.header-contact-section > .header-contact-item > * {
+    color: var(--secondary-color);
+}
+
+.header-contact-section > .header-contact-item > *:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+/* Hero */
+
+/* Experiene */
+.experience-list > .experience-item{
+    background-color: var(--custom-light);
+}
+/* Services */
+.services-list > .services-items{
+    color: var(--detail-color);
+}
+
+/* Contact */
+.addres-section{
+    color: var(--detail-color);
+}
+
+
+.clase1{
+    color: #FF6C00;
+}
+
+.clase2{
+    background-color: blue;
+}
+
+.clase3{
+    font-size: 70px;
+}
+
+.button-styles{
+    color:red
+}
+
+/* Aside */
+.main-aside{
+    width: 10%;
+    height: 100vh;
+    background-color: #FF6C00;
+    display: inline-block;
+}
+.main-section{
+    width: 90%;
+    height: 100vh;
+    display: inline-block;
+}
+.about{
+    width: 100%;
+    height: 50vh;
+}
+.services-and-prices{
+    width: 100%;
+    height: 100vh;
+}
+.preferences-section{
+    width: 100%;
+    height: 100vh;
+}
+.our-team-section{
+    width: 100%;
+    height: 100vh;
+}
+.testimony-section{
+    width: 100%;
+    height: 100vh;
+}
+.resvervations-section{
+    width: 100%;
+    height: 50vh;
+}
+.contact-section{
+    width: 100%;
+    height: 50vh;
+}
+
+.footer-section{
+    width: 100%;
+    height: 15vh;
+}
+
+.fluid-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
