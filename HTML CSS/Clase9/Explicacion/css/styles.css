@@ -1,0 +1,294 @@
+/* Normalice */
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+
+address{
+    font-style: normal;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.static{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    
+}
+
+.static-element{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: static;
+}
+
+.relative{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(151, 234, 84, 0.717);
+}
+
+.relative-element1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(91, 165, 42);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    right: -100px;
+    bottom: -100px;
+}
+
+.relative-element2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(42, 71, 165);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    bottom: 200px;
+}
+
+.relative-element3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(165, 75, 42);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: relative;
+    right: -50px;
+    bottom: -200px;
+}
+
+.absolute{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(210, 136, 237, 0.717);
+    position: relative;
+}
+
+.absolute-element1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(91, 165, 42);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    z-index: 1;
+}
+
+.absolute-element2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(42, 71, 165);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    z-index: 2;
+}
+
+.absolute-element3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(165, 75, 42);
+    margin: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+}
+
+.fixed{
+    height: 10vh;
+    width: 20%;
+    background-color: rgba(136, 222, 237, 0.717);
+    position: fixed;
+    top: 0;
+    right: 300px;
+    top: 200px;
+}
+
+.sticky{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(237, 175, 136, 0.717);
+}
+
+.sticky> .sticky-element1{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+}
+
+.sticky2> .sticky-element1{
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 255, 26);
+    width: 100%;
+    height: 10vh;
+}
+
+.sticky3> .sticky-element1{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 183, 0);
+    width: 100%;
+    height: 10vh;
+}
+.sticky2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(136, 195, 237, 0.717);
+}
+
+.sticky3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(136, 237, 197, 0.717);
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    overflow: hidden;
+    position: relative;
+}
+.bg-rgba{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(136, 222, 237, 0.717);
+    position: absolute;
+    bottom: -300px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .bg-rgba{
+    top: 0;
+}
+
+.father{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(136, 191, 237, 0.469);
+    position: relative;
+}
+
+.son{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: brown;
+    top: 0;
+    right: 0;
+}
+
+.son2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(159, 165, 42);
+    top: 0;
+    left: 0;
+}
+
+.son3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(42, 165, 52);
+    bottom: 0;
+    right: 0;
+}
+
+.son4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(42, 165, 155);
+    bottom: 0;
+    left: 0;
+}
+
+.son5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(42, 165, 155);
+    left: 50%;
+    top: 50%;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(202, 215, 142);
+}
+
+.title{
+    width: 50%;
+}
+
+.title h1{
+    position: sticky;
+    top: 0;
+}
+
+.content{
+    width: 50%;
+}
+
+.fixed-title{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    color: red;
+    font-size: 100px;
+}
